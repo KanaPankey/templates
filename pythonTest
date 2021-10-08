@@ -1,0 +1,13 @@
+class FizzbuzzTestCase(unittest.TestCase):
+    """Tests for fizzbuzz.py."""
+    
+    def test_returns_a_list(self):
+        """When you call fizzbuzz(), you should get a list back"""
+        self.assertEqual(type(fizzbuzz()), list)
+        
+    def test_returns_an_array_of_100_items(self):
+        """When you call fizzbuzz(), you should get 100 items back"""
+        self.assertEqual(len(fizzbuzz()), 100)
+        
+if __name__ == '__main__':  (add double underscores)
+    unittest.main()
