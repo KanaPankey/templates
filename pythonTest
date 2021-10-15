@@ -1,3 +1,5 @@
+import unittest
+
 class FizzbuzzTestCase(unittest.TestCase):
     """Tests for fizzbuzz.py."""
     
